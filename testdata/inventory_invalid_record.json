@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "aws-role-example-01",
+      "name": "example-role",
+      "type": "nhi",
+      "subclass": "iam_role",
+      "source": "aws",
+      "created": "2025-01-01T00:00:00Z"
+    }
+  ]
+}

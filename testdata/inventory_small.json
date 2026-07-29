@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "aws-role-lambda-exec-01",
+      "name": "lambda-exec-role",
+      "type": "nhi",
+      "subclass": "iam_role",
+      "source": "aws",
+      "created": "2025-01-15T10:00:00Z",
+      "last_used": "2026-07-01T08:30:00Z",
+      "classification_reason": "No interactive sign-in events; matches Lambda execution role naming convention.",
+      "metadata": {
+        "account_id": "111122223333",
+        "arn": "arn:aws:iam::111122223333:role/lambda-exec-role",
+        "attached_policies": ["AWSLambdaBasicExecutionRole"]
+      }
+    },
+    {
+      "id": "aws-user-ci-deploy-01",
+      "name": "ci-deploy-user",
+      "type": "nhi",
+      "subclass": "iam_user",
+      "source": "aws",
+      "created": "2024-11-02T09:12:00Z",
+      "last_used": "2026-06-28T02:15:00Z",
+      "classification_reason": "Access key used exclusively from CI runner IP range.",
+      "metadata": {
+        "account_id": "111122223333",
+        "arn": "arn:aws:iam::111122223333:user/ci-deploy-user",
+        "access_key_count": 1
+      }
+    },
+    {
+      "id": "aws-user-jsmith-01",
+      "name": "jane.smith",
+      "type": "human",
+      "subclass": "iam_user",
+      "source": "aws",
+      "created": "2023-03-01T00:00:00Z",
+      "last_used": "2026-07-20T14:02:00Z",
+      "classification_reason": "Interactive console sign-ins with MFA challenges.",
+      "metadata": {
+        "account_id": "111122223333",
+        "arn": "arn:aws:iam::111122223333:user/jane.smith",
+        "mfa_enabled": true
+      }
+    },
+    {
+      "id": "entra-sp-billing-sync-01",
+      "name": "billing-sync-sp",
+      "type": "nhi",
+      "subclass": "service_principal",
+      "source": "entra",
+      "created": "2025-05-20T12:00:00Z",
+      "last_used": "2026-07-15T03:45:00Z",
+      "classification_reason": "App-only OAuth flow; no delegated permissions.",
+      "metadata": {
+        "app_id": "6b1f6a3d-2c1e-4a9b-9d8e-1a2b3c4d5e6f",
+        "tenant_id": "9f8e7d6c-5b4a-3c2d-1e0f-a1b2c3d4e5f6"
+      }
+    },
+    {
+      "id": "entra-user-bwayne-01",
+      "name": "bruce.wayne",
+      "type": "human",
+      "subclass": "user",
+      "source": "entra",
+      "created": "2022-08-11T00:00:00Z",
+      "last_used": "2026-07-25T18:22:00Z",
+      "classification_reason": "Interactive sign-in with conditional access policy match.",
+      "metadata": {
+        "user_principal_name": "bruce.wayne@example.com"
+      }
+    },
+    {
+      "id": "ad-svc-sqlbackup-01",
+      "name": "svc-sqlbackup",
+      "type": "nhi",
+      "subclass": "service_account",
+      "source": "ad",
+      "created": "2019-06-01T00:00:00Z",
+      "last_used": "2026-07-28T01:00:00Z",
+      "classification_reason": "Password never expires; used only by SQL Agent job.",
+      "metadata": {
+        "domain": "CORP",
+        "sam_account_name": "svc-sqlbackup",
+        "distinguished_name": "CN=svc-sqlbackup,OU=ServiceAccounts,DC=corp,DC=example,DC=com"
+      }
+    },
+    {
+      "id": "ad-computer-webprod01-01",
+      "name": "WEBPROD01$",
+      "type": "nhi",
+      "subclass": "computer_account",
+      "source": "ad",
+      "created": "2021-02-10T00:00:00Z",
+      "last_used": "2026-07-27T22:00:00Z",
+      "classification_reason": "Computer account, not a human identity by construction.",
+      "metadata": {
+        "domain": "CORP",
+        "os": "Windows Server 2022"
+      }
+    },
+    {
+      "id": "k8s-sa-payments-worker-01",
+      "name": "payments-worker",
+      "type": "nhi",
+      "subclass": "service_account",
+      "source": "kubernetes",
+      "created": "2025-09-01T00:00:00Z",
+      "last_used": "2026-07-29T05:00:00Z",
+      "classification_reason": "Bound to a single Deployment via projected service account token.",
+      "metadata": {
+        "namespace": "payments",
+        "cluster": "prod-use1"
+      }
+    },
+    {
+      "id": "k8s-sa-default-payments-01",
+      "name": "default",
+      "type": "nhi",
+      "subclass": "service_account",
+      "source": "kubernetes",
+      "created": "2025-09-01T00:00:00Z",
+      "last_used": "2026-01-05T00:00:00Z",
+      "classification_reason": "Default namespace service account, unused by any workload since audit.",
+      "metadata": {
+        "namespace": "payments",
+        "cluster": "prod-use1"
+      }
+    },
+    {
+      "id": "aws-role-readonly-analyst-01",
+      "name": "readonly-analyst-role",
+      "type": "nhi",
+      "subclass": "iam_role",
+      "source": "aws",
+      "created": "2024-04-18T00:00:00Z",
+      "last_used": "2026-05-11T09:00:00Z",
+      "classification_reason": "Assumed only via SSO by the analytics team; treated as break-glass NHI.",
+      "metadata": {
+        "account_id": "444455556666",
+        "arn": "arn:aws:iam::444455556666:role/readonly-analyst-role"
+      }
+    },
+    {
+      "id": "entra-sp-terraform-ci-01",
+      "name": "terraform-ci-sp",
+      "type": "nhi",
+      "subclass": "service_principal",
+      "source": "entra",
+      "created": "2024-01-09T00:00:00Z",
+      "last_used": "2026-07-29T00:10:00Z",
+      "classification_reason": "Client-credentials grant only; secret rotated by pipeline.",
+      "metadata": {
+        "app_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+        "tenant_id": "9f8e7d6c-5b4a-3c2d-1e0f-a1b2c3d4e5f6"
+      }
+    },
+    {
+      "id": "ad-user-mrogers-01",
+      "name": "mary.rogers",
+      "type": "human",
+      "subclass": "user",
+      "source": "ad",
+      "created": "2020-01-01T00:00:00Z",
+      "last_used": "2026-07-29T08:00:00Z",
+      "classification_reason": "Interactive workstation logon events observed daily.",
+      "metadata": {
+        "domain": "CORP",
+        "sam_account_name": "mrogers"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.9",
+  "records": [
+    {
+      "id": "aws-role-example-01",
+      "name": "example-role",
+      "type": "nhi",
+      "subclass": "iam_role",
+      "source": "aws",
+      "created": "2025-01-01T00:00:00Z",
+      "last_used": "2026-01-01T00:00:00Z",
+      "classification_reason": "Example record for schema version mismatch testing.",
+      "metadata": {}
+    }
+  ]
+}
