@@ -5,3 +5,8 @@ pipeline (see epic #11): it consumes raw, source-specific identity signals
 and produces classified records compatible with the shared inventory
 schema (schema_version "1.0") used by downstream tooling such as the GUI.
 """
+
+from nhi_engine.classifier import classify
+from nhi_engine.schema import RawIdentityRecord
+
+__all__ = ["classify", "RawIdentityRecord"]
