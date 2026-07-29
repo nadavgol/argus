@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nhi-engine"
+version = "0.1.0"
+description = "ARGUS NHI classification engine: assigns human/nhi type and NHI subclass to identity records per the NHI taxonomy"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.scripts]
+nhi-engine = "nhi_engine.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["nhi_engine*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "--timeout=60"
