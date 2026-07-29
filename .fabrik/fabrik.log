@@ -1,0 +1,276 @@
+2026-07-29T07:57:49Z [cache] [cache] miss: FetchProjectBoard not yet bootstrapped — fetching from GitHub
+2026-07-29T07:57:51Z [poll] fetching project board from GitHub: nadavgol/#1
+2026-07-29T07:57:52Z [cache] [cache] probe bootstrap complete: 11 items
+2026-07-29T07:57:52Z [#11 cache] probe: no worktree on disk — treating as terminal
+2026-07-29T07:57:52Z [#1 cache] probe: no worktree on disk — treating as terminal
+2026-07-29T07:57:52Z [#5 cache] probe: no worktree on disk — treating as terminal
+2026-07-29T07:57:52Z [#6 cache] probe: no worktree on disk — treating as terminal
+2026-07-29T07:57:52Z [cache] probe bootstrap: seeded 4 terminal items (worktree absent, closed cleanup stage)
+2026-07-29T07:57:52Z [poll] found 11 items on board
+2026-07-29T07:57:52Z [poll] rate limit GraphQL: 3969/5000 remaining, resets at 18:22
+2026-07-29T07:57:52Z [poll] repos on board: [nadavgol/argus]
+2026-07-29T07:57:52Z [startup] WARNING: nadavgol/argus has allow_auto_merge disabled.
+2026-07-29T07:57:52Z [startup] WARNING: yolo issues on this repo will reach Validate complete but their PRs will not merge.
+2026-07-29T07:57:52Z [startup] WARNING: Fix: gh api -X PATCH repos/nadavgol/argus -f allow_auto_merge=true
+2026-07-29T07:58:08Z [poll] deep-fetching details for #10 from GitHub
+2026-07-29T07:58:08Z [cache] [cache] miss for #10 — fetching from GitHub
+2026-07-29T07:58:09Z [poll] deep-fetching details for #2 from GitHub
+2026-07-29T07:58:09Z [cache] [cache] miss for #2 — fetching from GitHub
+2026-07-29T07:58:09Z [poll] deep-fetching details for #8 from GitHub
+2026-07-29T07:58:09Z [cache] [cache] miss for #8 — fetching from GitHub
+2026-07-29T07:58:10Z [poll] deep-fetching details for #9 from GitHub
+2026-07-29T07:58:10Z [cache] [cache] miss for #9 — fetching from GitHub
+2026-07-29T07:58:10Z [poll] deep-fetching details for #3 from GitHub
+2026-07-29T07:58:10Z [cache] [cache] miss for #3 — fetching from GitHub
+2026-07-29T07:58:11Z [poll] deep-fetching details for #4 from GitHub
+2026-07-29T07:58:11Z [cache] [cache] miss for #4 — fetching from GitHub
+2026-07-29T07:58:11Z [poll] deep-fetching details for #7 from GitHub
+2026-07-29T07:58:11Z [cache] [cache] miss for #7 — fetching from GitHub
+2026-07-29T07:58:11Z [poll] deep-fetched details for 7 item(s)
+2026-07-29T07:58:13Z [#10 process] "DiscoveryTool" — stage: Specify
+2026-07-29T07:58:13Z [#3 process] "Human" — stage: Research
+2026-07-29T07:58:13Z [#2 process] "NHI" — stage: Research
+2026-07-29T07:58:13Z [#8 process] "NHI" — stage: Implement
+2026-07-29T07:58:13Z [#9 process] "GUI" — stage: Review
+2026-07-29T07:58:20Z [#2 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-2 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:20Z [#4 process] "CyberArk API" — stage: Research
+2026-07-29T07:58:20Z [#10 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-10 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:20Z [#7 process] "GUI" — stage: Implement
+2026-07-29T07:58:20Z [janitor] cycle complete: scanned 0 worktrees, reaped 0, skipped 0
+2026-07-29T07:58:20Z [log-janitor] cycle complete: scanned 0 files, removed 0 (0 bytes), age=0 size=0
+2026-07-29T07:58:20Z [poll] wake requested — polling immediately
+2026-07-29T07:58:20Z [poll] reading project board from cache: nadavgol/#1
+2026-07-29T07:58:20Z [#8 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-8 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:20Z [#9 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-9 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:20Z [#3 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-3 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:21Z [#2 cache] probe: stale — deep-fetching
+2026-07-29T07:58:21Z [cache] [cache] stale for #2 (board updatedAt 2026-07-29T07:58:20Z > last-seen 2026-07-29T07:25:31Z) — refetching from GitHub
+2026-07-29T07:58:22Z [#3 cache] probe: stale — deep-fetching
+2026-07-29T07:58:22Z [cache] [cache] stale for #3 (board updatedAt 2026-07-29T07:58:20Z > last-seen 2026-07-29T07:25:23Z) — refetching from GitHub
+2026-07-29T07:58:22Z [#4 cache] probe: stale — deep-fetching
+2026-07-29T07:58:22Z [cache] [cache] stale for #4 (board updatedAt 2026-07-29T07:58:20Z > last-seen 2026-07-29T07:25:30Z) — refetching from GitHub
+2026-07-29T07:58:22Z [#7 cache] probe: stale — deep-fetching
+2026-07-29T07:58:22Z [cache] [cache] stale for #7 (board updatedAt 2026-07-29T07:58:20Z > last-seen 2026-07-29T07:25:23Z) — refetching from GitHub
+2026-07-29T07:58:23Z [#8 cache] probe: stale — deep-fetching
+2026-07-29T07:58:23Z [cache] [cache] stale for #8 (board updatedAt 2026-07-29T07:58:20Z > last-seen 2026-07-29T07:25:23Z) — refetching from GitHub
+2026-07-29T07:58:23Z [#9 cache] probe: stale — deep-fetching
+2026-07-29T07:58:23Z [cache] [cache] stale for #9 (board updatedAt 2026-07-29T07:58:20Z > last-seen 2026-07-29T07:25:24Z) — refetching from GitHub
+2026-07-29T07:58:24Z [#10 cache] probe: stale — deep-fetching
+2026-07-29T07:58:24Z [cache] [cache] stale for #10 (board updatedAt 2026-07-29T07:58:20Z > last-seen 2026-07-29T07:25:23Z) — refetching from GitHub
+2026-07-29T07:58:24Z [cache] probe: deep-fetched 7 item(s)
+2026-07-29T07:58:24Z [poll] found 11 items on board
+2026-07-29T07:58:24Z [poll] rate limit REST: 3881/5000 remaining, resets at 18:19
+2026-07-29T07:58:24Z [poll] rate limit GraphQL: 3896/5000 remaining, resets at 18:22
+2026-07-29T07:58:24Z [poll] repos on board: [nadavgol/argus]
+2026-07-29T07:58:24Z [poll] deep-fetching details for #7 from GitHub
+2026-07-29T07:58:24Z [cache] [cache] stale for #7 (board updatedAt 2026-07-29T17:58:24+10:00 > last-seen 2026-07-29T07:58:20Z) — refetching from GitHub
+2026-07-29T07:58:25Z [poll] deep-fetching details for #10 from GitHub
+2026-07-29T07:58:25Z [cache] [cache] stale for #10 (board updatedAt 2026-07-29T17:58:20+10:00 > last-seen 2026-07-29T07:58:20Z) — refetching from GitHub
+2026-07-29T07:58:26Z [#7 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-7 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:26Z [#4 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-4 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:26Z [poll] deep-fetching details for #2 from GitHub
+2026-07-29T07:58:26Z [cache] [cache] stale for #2 (board updatedAt 2026-07-29T17:58:20+10:00 > last-seen 2026-07-29T07:58:20Z) — refetching from GitHub
+2026-07-29T07:58:27Z [poll] deep-fetching details for #8 from GitHub
+2026-07-29T07:58:27Z [cache] [cache] stale for #8 (board updatedAt 2026-07-29T17:58:20+10:00 > last-seen 2026-07-29T07:58:20Z) — refetching from GitHub
+2026-07-29T07:58:27Z [poll] deep-fetching details for #9 from GitHub
+2026-07-29T07:58:27Z [cache] [cache] stale for #9 (board updatedAt 2026-07-29T17:58:20+10:00 > last-seen 2026-07-29T07:58:20Z) — refetching from GitHub
+2026-07-29T07:58:27Z [poll] deep-fetching details for #3 from GitHub
+2026-07-29T07:58:27Z [cache] [cache] stale for #3 (board updatedAt 2026-07-29T17:58:20+10:00 > last-seen 2026-07-29T07:58:20Z) — refetching from GitHub
+2026-07-29T07:58:28Z [poll] deep-fetching details for #4 from GitHub
+2026-07-29T07:58:28Z [cache] [cache] stale for #4 (board updatedAt 2026-07-29T17:58:24+10:00 > last-seen 2026-07-29T07:58:20Z) — refetching from GitHub
+2026-07-29T07:58:28Z [poll] deep-fetched details for 7 item(s)
+2026-07-29T07:58:28Z [#9 process] "GUI" — stage: Review
+2026-07-29T07:58:28Z [#2 process] "NHI" — stage: Research
+2026-07-29T07:58:28Z [#8 process] "NHI" — stage: Implement
+2026-07-29T07:58:28Z [#7 process] "GUI" — stage: Implement
+2026-07-29T07:58:28Z [#10 process] "DiscoveryTool" — stage: Specify
+2026-07-29T07:58:35Z [#10 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-10 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:35Z [#3 process] "Human" — stage: Research
+2026-07-29T07:58:35Z [#8 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-8 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:35Z [#4 process] "CyberArk API" — stage: Research
+2026-07-29T07:58:35Z [poll] wake requested — polling immediately
+2026-07-29T07:58:35Z [poll] reading project board from cache: nadavgol/#1
+2026-07-29T07:58:35Z [#9 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-9 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:35Z [#2 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-2 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:35Z [#7 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-7 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:36Z [#2 cache] probe: stale — deep-fetching
+2026-07-29T07:58:36Z [cache] [cache] stale for #2 (board updatedAt 2026-07-29T07:58:35Z > last-seen 2026-07-29T17:58:20+10:00) — refetching from GitHub
+2026-07-29T07:58:37Z [#3 cache] probe: stale — deep-fetching
+2026-07-29T07:58:37Z [cache] [cache] stale for #3 (board updatedAt 2026-07-29T07:58:35Z > last-seen 2026-07-29T17:58:20+10:00) — refetching from GitHub
+2026-07-29T07:58:37Z [#4 cache] probe: stale — deep-fetching
+2026-07-29T07:58:37Z [cache] [cache] stale for #4 (board updatedAt 2026-07-29T07:58:35Z > last-seen 2026-07-29T17:58:24+10:00) — refetching from GitHub
+2026-07-29T07:58:38Z [#7 cache] probe: stale — deep-fetching
+2026-07-29T07:58:38Z [cache] [cache] stale for #7 (board updatedAt 2026-07-29T07:58:35Z > last-seen 2026-07-29T17:58:24+10:00) — refetching from GitHub
+2026-07-29T07:58:38Z [#8 cache] probe: stale — deep-fetching
+2026-07-29T07:58:38Z [cache] [cache] stale for #8 (board updatedAt 2026-07-29T07:58:35Z > last-seen 2026-07-29T17:58:20+10:00) — refetching from GitHub
+2026-07-29T07:58:38Z [#9 cache] probe: stale — deep-fetching
+2026-07-29T07:58:38Z [cache] [cache] stale for #9 (board updatedAt 2026-07-29T07:58:36Z > last-seen 2026-07-29T17:58:20+10:00) — refetching from GitHub
+2026-07-29T07:58:39Z [#10 cache] probe: stale — deep-fetching
+2026-07-29T07:58:39Z [cache] [cache] stale for #10 (board updatedAt 2026-07-29T07:58:35Z > last-seen 2026-07-29T17:58:20+10:00) — refetching from GitHub
+2026-07-29T07:58:39Z [cache] probe: deep-fetched 7 item(s)
+2026-07-29T07:58:39Z [poll] found 11 items on board
+2026-07-29T07:58:39Z [poll] rate limit REST: 3832/5000 remaining, resets at 18:19
+2026-07-29T07:58:39Z [poll] rate limit GraphQL: 3823/5000 remaining, resets at 18:22
+2026-07-29T07:58:39Z [poll] repos on board: [nadavgol/argus]
+2026-07-29T07:58:39Z [poll] deep-fetching details for #8 from GitHub
+2026-07-29T07:58:39Z [cache] [cache] stale for #8 (board updatedAt 2026-07-29T17:58:35+10:00 > last-seen 2026-07-29T07:58:35Z) — refetching from GitHub
+2026-07-29T07:58:40Z [poll] reading details for #9 from cache
+2026-07-29T07:58:40Z [poll] deep-fetching details for #3 from GitHub
+2026-07-29T07:58:40Z [cache] [cache] stale for #3 (board updatedAt 2026-07-29T17:58:39+10:00 > last-seen 2026-07-29T07:58:35Z) — refetching from GitHub
+2026-07-29T07:58:40Z [poll] deep-fetching details for #4 from GitHub
+2026-07-29T07:58:40Z [cache] [cache] stale for #4 (board updatedAt 2026-07-29T17:58:39+10:00 > last-seen 2026-07-29T07:58:35Z) — refetching from GitHub
+2026-07-29T07:58:41Z [poll] deep-fetching details for #7 from GitHub
+2026-07-29T07:58:41Z [cache] [cache] stale for #7 (board updatedAt 2026-07-29T17:58:35+10:00 > last-seen 2026-07-29T07:58:35Z) — refetching from GitHub
+2026-07-29T07:58:41Z [#4 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-4 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:41Z [poll] deep-fetching details for #10 from GitHub
+2026-07-29T07:58:41Z [cache] [cache] stale for #10 (board updatedAt 2026-07-29T17:58:35+10:00 > last-seen 2026-07-29T07:58:35Z) — refetching from GitHub
+2026-07-29T07:58:42Z [#3 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-3 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:42Z [poll] deep-fetching details for #2 from GitHub
+2026-07-29T07:58:42Z [cache] [cache] stale for #2 (board updatedAt 2026-07-29T17:58:35+10:00 > last-seen 2026-07-29T07:58:35Z) — refetching from GitHub
+2026-07-29T07:58:42Z [poll] deep-fetched details for 7 item(s)
+2026-07-29T07:58:42Z [#3 process] "Human" — stage: Research
+2026-07-29T07:58:42Z [#8 process] "NHI" — stage: Implement
+2026-07-29T07:58:42Z [#9 process] "GUI" — stage: Review
+2026-07-29T07:58:42Z [#7 process] "GUI" — stage: Implement
+2026-07-29T07:58:42Z [#4 process] "CyberArk API" — stage: Research
+2026-07-29T07:58:48Z [#4 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-4 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:48Z [#10 process] "DiscoveryTool" — stage: Specify
+2026-07-29T07:58:49Z [#8 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-8 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:49Z [#2 process] "NHI" — stage: Research
+2026-07-29T07:58:49Z [poll] wake requested — polling immediately
+2026-07-29T07:58:49Z [poll] reading project board from cache: nadavgol/#1
+2026-07-29T07:58:49Z [#9 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-9 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:49Z [#7 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-7 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:49Z [#3 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-3 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:50Z [#11 cache] probe: stale — deep-fetching
+2026-07-29T07:58:50Z [cache] [cache] miss for #11 — fetching from GitHub
+2026-07-29T07:58:51Z [#2 cache] probe: stale — deep-fetching
+2026-07-29T07:58:51Z [cache] [cache] stale for #2 (board updatedAt 2026-07-29T07:58:49Z > last-seen 2026-07-29T17:58:35+10:00) — refetching from GitHub
+2026-07-29T07:58:51Z [#3 cache] probe: stale — deep-fetching
+2026-07-29T07:58:51Z [cache] [cache] stale for #3 (board updatedAt 2026-07-29T07:58:49Z > last-seen 2026-07-29T17:58:39+10:00) — refetching from GitHub
+2026-07-29T07:58:52Z [#4 cache] probe: stale — deep-fetching
+2026-07-29T07:58:52Z [cache] [cache] stale for #4 (board updatedAt 2026-07-29T07:58:50Z > last-seen 2026-07-29T17:58:39+10:00) — refetching from GitHub
+2026-07-29T07:58:52Z [#7 cache] probe: stale — deep-fetching
+2026-07-29T07:58:52Z [cache] [cache] stale for #7 (board updatedAt 2026-07-29T07:58:49Z > last-seen 2026-07-29T17:58:35+10:00) — refetching from GitHub
+2026-07-29T07:58:53Z [#8 cache] probe: stale — deep-fetching
+2026-07-29T07:58:53Z [cache] [cache] stale for #8 (board updatedAt 2026-07-29T07:58:49Z > last-seen 2026-07-29T17:58:35+10:00) — refetching from GitHub
+2026-07-29T07:58:53Z [#9 cache] probe: stale — deep-fetching
+2026-07-29T07:58:53Z [cache] [cache] stale for #9 (board updatedAt 2026-07-29T07:58:49Z > last-seen 2026-07-29T07:58:36Z) — refetching from GitHub
+2026-07-29T07:58:54Z [#10 cache] probe: stale — deep-fetching
+2026-07-29T07:58:54Z [cache] [cache] stale for #10 (board updatedAt 2026-07-29T07:58:49Z > last-seen 2026-07-29T17:58:35+10:00) — refetching from GitHub
+2026-07-29T07:58:54Z [cache] probe: deep-fetched 8 item(s)
+2026-07-29T07:58:54Z [poll] found 11 items on board
+2026-07-29T07:58:54Z [poll] rate limit REST: 3783/5000 remaining, resets at 18:19
+2026-07-29T07:58:54Z [poll] rate limit GraphQL: 3750/5000 remaining, resets at 18:22
+2026-07-29T07:58:54Z [poll] repos on board: [nadavgol/argus]
+2026-07-29T07:58:54Z [poll] deep-fetching details for #3 from GitHub
+2026-07-29T07:58:54Z [cache] [cache] stale for #3 (board updatedAt 2026-07-29T17:58:49+10:00 > last-seen 2026-07-29T07:58:49Z) — refetching from GitHub
+2026-07-29T07:58:54Z [poll] reading details for #4 from cache
+2026-07-29T07:58:54Z [poll] deep-fetching details for #7 from GitHub
+2026-07-29T07:58:54Z [cache] [cache] stale for #7 (board updatedAt 2026-07-29T17:58:49+10:00 > last-seen 2026-07-29T07:58:49Z) — refetching from GitHub
+2026-07-29T07:58:55Z [poll] deep-fetching details for #10 from GitHub
+2026-07-29T07:58:55Z [cache] [cache] stale for #10 (board updatedAt 2026-07-29T17:58:53+10:00 > last-seen 2026-07-29T07:58:49Z) — refetching from GitHub
+2026-07-29T07:58:55Z [#10 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-10 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:55Z [#2 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-2 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:58:55Z [poll] deep-fetching details for #2 from GitHub
+2026-07-29T07:58:55Z [cache] [cache] stale for #2 (board updatedAt 2026-07-29T17:58:53+10:00 > last-seen 2026-07-29T07:58:49Z) — refetching from GitHub
+2026-07-29T07:58:56Z [poll] deep-fetching details for #8 from GitHub
+2026-07-29T07:58:56Z [cache] [cache] stale for #8 (board updatedAt 2026-07-29T17:58:49+10:00 > last-seen 2026-07-29T07:58:49Z) — refetching from GitHub
+2026-07-29T07:58:56Z [poll] deep-fetching details for #9 from GitHub
+2026-07-29T07:58:56Z [cache] [cache] stale for #9 (board updatedAt 2026-07-29T17:58:49+10:00 > last-seen 2026-07-29T07:58:49Z) — refetching from GitHub
+2026-07-29T07:58:57Z [poll] deep-fetched details for 7 item(s)
+2026-07-29T07:58:57Z [#10 process] "DiscoveryTool" — stage: Specify
+2026-07-29T07:58:57Z [#3 process] "Human" — stage: Research
+2026-07-29T07:58:57Z [#2 process] "NHI" — stage: Research
+2026-07-29T07:58:57Z [#4 process] "CyberArk API" — stage: Research
+2026-07-29T07:58:57Z [#7 process] "GUI" — stage: Implement
+2026-07-29T07:59:03Z [#3 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-3 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:03Z [#8 process] "NHI" — stage: Implement
+2026-07-29T07:59:03Z [#7 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-7 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:03Z [#11 closed-advance] closed issue stranded outside Done — advancing
+2026-07-29T07:59:03Z [#9 process] "GUI" — stage: Review
+2026-07-29T07:59:03Z [#10 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-10 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:03Z [#2 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-2 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:04Z [poll] wake requested — polling immediately
+2026-07-29T07:59:04Z [poll] reading project board from cache: nadavgol/#1
+2026-07-29T07:59:04Z [#4 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-4 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:05Z [#11 cache] probe: stale — deep-fetching
+2026-07-29T07:59:05Z [cache] [cache] stale for #11 (board updatedAt 2026-07-29T07:59:04Z > last-seen 2026-07-29T07:58:48Z) — refetching from GitHub
+2026-07-29T07:59:06Z [#2 cache] probe: stale — deep-fetching
+2026-07-29T07:59:06Z [cache] [cache] stale for #2 (board updatedAt 2026-07-29T07:59:04Z > last-seen 2026-07-29T17:58:53+10:00) — refetching from GitHub
+2026-07-29T07:59:06Z [#3 cache] probe: stale — deep-fetching
+2026-07-29T07:59:06Z [cache] [cache] stale for #3 (board updatedAt 2026-07-29T07:59:05Z > last-seen 2026-07-29T17:58:49+10:00) — refetching from GitHub
+2026-07-29T07:59:07Z [#4 cache] probe: stale — deep-fetching
+2026-07-29T07:59:07Z [cache] [cache] stale for #4 (board updatedAt 2026-07-29T07:59:04Z > last-seen 2026-07-29T07:58:50Z) — refetching from GitHub
+2026-07-29T07:59:07Z [#7 cache] probe: stale — deep-fetching
+2026-07-29T07:59:07Z [cache] [cache] stale for #7 (board updatedAt 2026-07-29T07:59:04Z > last-seen 2026-07-29T17:58:49+10:00) — refetching from GitHub
+2026-07-29T07:59:08Z [#8 cache] probe: stale — deep-fetching
+2026-07-29T07:59:08Z [cache] [cache] stale for #8 (board updatedAt 2026-07-29T07:59:05Z > last-seen 2026-07-29T17:58:49+10:00) — refetching from GitHub
+2026-07-29T07:59:08Z [#9 cache] probe: stale — deep-fetching
+2026-07-29T07:59:08Z [cache] [cache] stale for #9 (board updatedAt 2026-07-29T07:59:04Z > last-seen 2026-07-29T17:58:49+10:00) — refetching from GitHub
+2026-07-29T07:59:09Z [#10 cache] probe: stale — deep-fetching
+2026-07-29T07:59:09Z [cache] [cache] stale for #10 (board updatedAt 2026-07-29T07:59:05Z > last-seen 2026-07-29T17:58:53+10:00) — refetching from GitHub
+2026-07-29T07:59:09Z [cache] probe: deep-fetched 8 item(s)
+2026-07-29T07:59:09Z [poll] found 11 items on board
+2026-07-29T07:59:09Z [poll] rate limit REST: 3733/5000 remaining, resets at 18:19
+2026-07-29T07:59:09Z [poll] rate limit GraphQL: 3676/5000 remaining, resets at 18:22
+2026-07-29T07:59:09Z [poll] repos on board: [nadavgol/argus]
+2026-07-29T07:59:09Z [poll] reading details for #3 from cache
+2026-07-29T07:59:09Z [poll] deep-fetching details for #4 from GitHub
+2026-07-29T07:59:09Z [cache] [cache] stale for #4 (board updatedAt 2026-07-29T17:59:04+10:00 > last-seen 2026-07-29T07:59:04Z) — refetching from GitHub
+2026-07-29T07:59:10Z [poll] reading details for #7 from cache
+2026-07-29T07:59:10Z [poll] reading details for #10 from cache
+2026-07-29T07:59:10Z [poll] reading details for #2 from cache
+2026-07-29T07:59:10Z [poll] deep-fetching details for #8 from GitHub
+2026-07-29T07:59:10Z [cache] [cache] stale for #8 (board updatedAt 2026-07-29T17:59:08+10:00 > last-seen 2026-07-29T07:59:05Z) — refetching from GitHub
+2026-07-29T07:59:10Z [#9 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-9 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:10Z [poll] deep-fetching details for #9 from GitHub
+2026-07-29T07:59:10Z [cache] [cache] stale for #9 (board updatedAt 2026-07-29T17:59:09+10:00 > last-seen 2026-07-29T07:59:04Z) — refetching from GitHub
+2026-07-29T07:59:10Z [#8 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-8 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:11Z [poll] deep-fetched details for 7 item(s)
+2026-07-29T07:59:11Z [#3 process] "Human" — stage: Research
+2026-07-29T07:59:11Z [#7 process] "GUI" — stage: Implement
+2026-07-29T07:59:11Z [#10 process] "DiscoveryTool" — stage: Specify
+2026-07-29T07:59:11Z [#2 process] "NHI" — stage: Research
+2026-07-29T07:59:11Z [#4 process] "CyberArk API" — stage: Research
+2026-07-29T07:59:12Z [poll] wake requested — polling immediately
+2026-07-29T07:59:12Z [poll] reading project board from cache: nadavgol/#1
+2026-07-29T07:59:14Z [#2 cache] probe: stale — deep-fetching
+2026-07-29T07:59:14Z [cache] [cache] stale for #2 (board updatedAt 2026-07-29T07:59:13Z > last-seen 2026-07-29T07:59:04Z) — refetching from GitHub
+2026-07-29T07:59:14Z [#3 cache] probe: stale — deep-fetching
+2026-07-29T07:59:14Z [cache] [cache] stale for #3 (board updatedAt 2026-07-29T07:59:12Z > last-seen 2026-07-29T07:59:05Z) — refetching from GitHub
+2026-07-29T07:59:14Z [#4 cache] probe: stale — deep-fetching
+2026-07-29T07:59:14Z [cache] [cache] stale for #4 (board updatedAt 2026-07-29T07:59:13Z > last-seen 2026-07-29T17:59:04+10:00) — refetching from GitHub
+2026-07-29T07:59:15Z [#7 cache] probe: stale — deep-fetching
+2026-07-29T07:59:15Z [cache] [cache] stale for #7 (board updatedAt 2026-07-29T07:59:13Z > last-seen 2026-07-29T07:59:04Z) — refetching from GitHub
+2026-07-29T07:59:16Z [#8 cache] probe: stale — deep-fetching
+2026-07-29T07:59:16Z [cache] [cache] stale for #8 (board updatedAt 2026-07-29T07:59:12Z > last-seen 2026-07-29T17:59:08+10:00) — refetching from GitHub
+2026-07-29T07:59:16Z [#9 cache] probe: stale — deep-fetching
+2026-07-29T07:59:16Z [cache] [cache] stale for #9 (board updatedAt 2026-07-29T07:59:10Z > last-seen 2026-07-29T17:59:09+10:00) — refetching from GitHub
+2026-07-29T07:59:16Z [#10 cache] probe: stale — deep-fetching
+2026-07-29T07:59:16Z [cache] [cache] stale for #10 (board updatedAt 2026-07-29T07:59:12Z > last-seen 2026-07-29T07:59:05Z) — refetching from GitHub
+2026-07-29T07:59:17Z [cache] probe: deep-fetched 7 item(s)
+2026-07-29T07:59:17Z [poll] found 11 items on board
+2026-07-29T07:59:17Z [poll] rate limit REST: 3700/5000 remaining, resets at 18:19
+2026-07-29T07:59:17Z [poll] rate limit GraphQL: 3623/5000 remaining, resets at 18:22
+2026-07-29T07:59:17Z [poll] repos on board: [nadavgol/argus]
+2026-07-29T07:59:17Z [poll] deep-fetching details for #3 from GitHub
+2026-07-29T07:59:17Z [cache] [cache] stale for #3 (board updatedAt 2026-07-29T17:59:16+10:00 > last-seen 2026-07-29T07:59:12Z) — refetching from GitHub
+2026-07-29T07:59:17Z [#10 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-10 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:17Z [#7 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-7 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:17Z [#3 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-3 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:17Z [#2 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-2 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:17Z [#4 error] setting up worktree for nadavgol/argus: creating branch fabrik/issue-4 from main: fatal: not a valid object name: 'main': exit status 128
+2026-07-29T07:59:17Z [poll] deep-fetching details for #4 from GitHub
+2026-07-29T07:59:17Z [cache] [cache] stale for #4 (board updatedAt 2026-07-29T17:59:16+10:00 > last-seen 2026-07-29T07:59:13Z) — refetching from GitHub
+2026-07-29T07:59:18Z [poll] deep-fetching details for #7 from GitHub
+2026-07-29T07:59:18Z [cache] [cache] stale for #7 (board updatedAt 2026-07-29T17:59:16+10:00 > last-seen 2026-07-29T07:59:13Z) — refetching from GitHub
+2026-07-29T07:59:18Z [poll] deep-fetching details for #10 from GitHub
+2026-07-29T07:59:18Z [cache] [cache] stale for #10 (board updatedAt 2026-07-29T17:59:16+10:00 > last-seen 2026-07-29T07:59:12Z) — refetching from GitHub
+2026-07-29T07:59:19Z [poll] deep-fetching details for #2 from GitHub
+2026-07-29T07:59:19Z [cache] [cache] stale for #2 (board updatedAt 2026-07-29T17:59:16+10:00 > last-seen 2026-07-29T07:59:13Z) — refetching from GitHub
+2026-07-29T07:59:19Z [poll] reading details for #8 from cache
+2026-07-29T07:59:19Z [poll] deep-fetching details for #9 from GitHub
+2026-07-29T07:59:19Z [cache] [cache] stale for #9 (board updatedAt 2026-07-29T17:59:10+10:00 > last-seen 2026-07-29T07:59:10Z) — refetching from GitHub
+2026-07-29T07:59:19Z [poll] deep-fetched details for 7 item(s)
+2026-07-29T07:59:19Z [poll] nothing to do
